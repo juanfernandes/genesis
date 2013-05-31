@@ -1,0 +1,55 @@
+/* Table of Contents
+==================================================
+	$Site Styles
+	$Documentation
+	$Page Styles
+	$Media Queries
+*/
+
+/* $_Site_Styles
+================================================== */
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 90%;
+}
+.content {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 80%;
+}
+
+/* $_Page_Styles
+================================================== */
+/* Header
+-------------------------------------------------- */
+header[role="banner"] {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.logo {
+	float: left;
+	position: relative;
+	width: auto;
+	margin: 0 auto;
+}
+
+/* $_Media_Queries
+================================================== */
+@media only screen and (min-width: 30em) {
+    /* 480 =================================================== */ }
+@media only screen and (min-width: 40em) {
+    /* 640 =================================================== */ }
+@media only screen and (min-width: 45em) {
+    /* 720 =================================================== */ }
+@media screen and (min-width: 55.5em) {
+    /* 888 =================================================== */ }
+@media only screen and (min-width: 61.5em) {
+    /* 984 =================================================== */ }
+@media only screen and (min-width: 75em) {
+    /* 1200 =================================================== */ }
+@media only screen and (min-width: 87em) {
+    /* 1392 =================================================== */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+    /* 2x =================================================== */ }

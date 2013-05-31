@@ -1,0 +1,19 @@
+#############
+## Folders ##
+#############
+
+_*
+-Working-*
+_old*
+
+
+#############
+##  Files  ##
+#############
+
+*.sublime-project
+*.sublime-workspace
+Thumbs.db
+.Trashes
+.DS_Store
+Desktop.ini

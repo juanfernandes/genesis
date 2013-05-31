@@ -1,0 +1,28 @@
+﻿/* TEAM
+   ------------------------------------------------------------------ */
+   Author:           Juan Fernandes
+   Contact:          info [at] juanfernandes [dot] co.uk
+   Website:          http://www.juanfernandes.co.uk
+   Twitter:          @juanfernandes
+   Meatspace:        London, UK
+   Contributions:    Everything...
+
+/* SITE
+   ------------------------------------------------------------------ */
+   Last update:      2013/05/02
+   Language:         English (British)
+   Doctype:          HTML5 with CSS3
+   Tools:            No CMS
+   IDE:              SublimeText 2
+   Built on:         Ubuntu
+   Served by:        Linux
+
+/* COMPONENTS
+   ------------------------------------------------------------------ */
+   320 and Up:       http://stuffandnonsense.co.uk/projects/320andup
+   Bootstrap:        http://twitter.github.com/bootstrap
+   Font Awesome:     http://fortawesome.github.com/Font-Awesome
+   Frameless grid:   http://framelessgrid.com
+   jQuery:           http://jquery.com
+   Modernizr:        http://modernizr.com
+   Selectivizr:      http://selectivizr.com

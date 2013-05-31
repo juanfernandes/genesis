@@ -1,0 +1,16 @@
+#grid .column,
+#grid .columns {
+    background: none repeat scroll 0 0 #DDD;
+    border-radius: 2px 2px 2px 2px;
+    color: #555;
+    font-size: 12px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 30em) {}
+@media only screen and (min-width: 40em) {}
