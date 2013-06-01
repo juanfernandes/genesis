@@ -1,5 +1,6 @@
-/* There are three styles of Slideshows you can use. #Slider1 offers the ability to have center buttons underneath the images. #Slider2 offers left and right arrows. And finally #Slider3 is the Kitchen sink. Both centered buttons and nav arrows are used. For Development, please delete the Sliders you don't need.*/
+// Responsive Slides
 
+// Slideshow 1
 $("#slider1").responsiveSlides({
   auto: false,
   pager: true,
@@ -26,8 +27,7 @@ $("#slider3").responsiveSlides({
   namespace: "large-btns"
 });
 
-/* Simple line of code to create a collapsed menu in smaller screen sizes. Originally developed by Jason Weaver http://jasonweaver.name/lab/flexiblenavigation/, FlexNav offers the ability to add submenus to your top-level information for more complex, deeper navigation.*/
-
+// Flexnav
 $("[role='navigation']").flexNav();
 
 
