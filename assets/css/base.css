@@ -29,8 +29,8 @@
 ================================================== */
 html {
     background: #FFF;
-    font-size: 16px;
-    font-size: 62.5%; /* IE7-8 Font Sizing */
+    /*font-size: 16px;*/
+    font-size: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -46,8 +46,10 @@ body {
     font-size: 16px;
     font-size: 1em;
     font-size: 1.6rem;
-    line-height: 1.5em;
+    /*line-height: 1.5;*/
+    line-height: 1.5;
     margin: 0;
+    min-height: 100%;
     padding: 0;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%; /* Fix for webkit rendering */
@@ -88,6 +90,7 @@ figure video {
 object,
 embed,
 video,
+iframe,
 picture {
     display: block;
     height: auto;
@@ -141,7 +144,7 @@ picture {
 }
 .column:first-child,
 .columns:first-child,
-.threeColumns .third:first-child {
+.threeColumns .col:first-child {
     margin-left: 0;
 }
 
@@ -157,6 +160,7 @@ h6 {
     color: #181818;
     font-family: "Georgia","Times New Roman",serif;
     font-weight: bold;
+    line-height: 1.5;
     margin: 0;
     text-rendering: optimizelegibility;
 }
@@ -218,7 +222,7 @@ address {
     font-size: 14px;
     font-size: .875em;
     font-size: 1.4rem;
-    line-height: 1.5em;
+    line-height: 1.5;
     margin-bottom: 1.5em;
 }
 small {
@@ -292,30 +296,18 @@ samp {
     font-size: 14px;
     font-size: .875em;
     font-size: 1.4rem;
-    line-height: 1.5em;
+    line-height: 1.5;
 }
 pre {
     white-space: pre;
     white-space: pre-wrap;
     word-wrap: break-word;
 }
-sub {
-    bottom: -0.25em;
-    font-size: 12px;
-    font-size: .75em;
-    font-size: 1.2rem;
-    line-height: 0;
-    position: relative;
-    vertical-align: baselineheight;
-}
+sub,
 sup {
     font-size: 12px;
     font-size: .75em;
     font-size: 1.2rem;
-    line-height: 0;
-    position: relative;
-    top: -0.5em;
-    vertical-align: baselineheight;
 }
 p {
     hyphenate: auto;
@@ -360,7 +352,7 @@ blockquote {
     font-size: 1.0625em;
     font-size: 1.7rem;
     font-style: italic;
-    line-height: 1.5em;
+    line-height: 1.5;
     margin: 0 0 1.25em;
     padding: 0.5625em 1.25em 0 1.1875em;
 }
@@ -370,7 +362,7 @@ blockquote p {
     font-size: 1.0625em;
     font-size: 1.7rem;
     font-style: italic;
-    line-height: 1.5em;
+    line-height: 1.5;
 }
 blockquote cite {
     color: #555;
@@ -496,7 +488,7 @@ img {
     border: 0;
     height: auto;
     max-width: 100%;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
     -ms-interpolation-mode: bicubic;
 }
 svg:not(:root) {
@@ -852,7 +844,7 @@ table td {
     border-top: 1px solid #8c9bab;
     font-size: 14px;
     font-size: 1.4rem;
-    line-height: 1.5em;
+    line-height: 1.5;
     padding: .5em;
     text-align: left;
     vertical-align: top;
@@ -1215,6 +1207,9 @@ textarea {
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 1.2em;
+}
+textarea {
+    overflow: auto
 }
 label {
     display: block;
@@ -2216,6 +2211,7 @@ legend + .control-group {
 .invisible {
     visibility: hidden;
 }
+.cf
 .cf:before,
 .cf:after {
     content: " ";
